@@ -8,13 +8,14 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.testng.ITestContext;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ExtentReportsManager {
+public class ExtentReportsManager implements ITestListener {
 
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
@@ -29,7 +30,7 @@ public class ExtentReportsManager {
 
         sparkReporter=new ExtentSparkReporter(".\\reports\\"+repName);
 
-        sparkReporter.config().setDocumentTitle("OpenCart Testng Framework"); // Title of report
+        sparkReporter.config().setDocumentTitle("OrangeHRM Testng Framework"); // Title of report
         sparkReporter.config().setReportName("Test Execution Results"); // name of the report
         sparkReporter.config().setTheme(Theme.DARK);
 //            try {
@@ -40,7 +41,7 @@ public class ExtentReportsManager {
 
         extent=new ExtentReports();
         extent.attachReporter(sparkReporter);
-        extent.setSystemInfo("Application", "E-Commerce");
+        extent.setSystemInfo("Application", "Human Resources");
         extent.setSystemInfo("Operating System", System.getProperty("os.name"));
         extent.setSystemInfo("User Name", System.getProperty("user.name"));
         extent.setSystemInfo("Environemnt","QA");

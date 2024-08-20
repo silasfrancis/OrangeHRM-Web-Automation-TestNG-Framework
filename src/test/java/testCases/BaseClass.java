@@ -6,10 +6,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import utilities.ReadConfig;
 
 import java.io.File;
@@ -27,10 +30,18 @@ public class BaseClass {
 
     public Logger logger;
 
+    @Parameters("browser")
     @BeforeClass
-    public void setup()
+    public void setup(String br)
     {
-        driver = new ChromeDriver();
+        switch(br.toLowerCase())
+        {
+            case "chrome":  driver = new ChromeDriver(); break;
+            case "edge": driver = new EdgeDriver(); break;
+            case "firefox": driver = new FirefoxDriver(); break;
+            default: System.out.println("Invalid browser");
+        }
+
         driver.get(baseURL);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         logger = LogManager.getLogger(this.getClass());

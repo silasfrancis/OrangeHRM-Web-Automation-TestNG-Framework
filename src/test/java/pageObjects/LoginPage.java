@@ -26,6 +26,12 @@ public class LoginPage extends BaseObject{
     @FindBy(xpath = "//a[normalize-space()='Logout']")
     WebElement logout;
 
+    @FindBy(xpath = "//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'][normalize-space()='Dashboard']")
+    WebElement dashboard;
+
+    @FindBy(xpath = "//i[@class='oxd-icon bi-exclamation-circle oxd-alert-content-icon']")
+    WebElement invalid_loginDetails;
+
     public void InputUsername(String username)
     {
         txt_username.sendKeys(username);
@@ -45,6 +51,16 @@ public class LoginPage extends BaseObject{
     {
         drp_user.click();
         logout.click();
+    }
+
+    public WebElement LoginConfirm()
+    {
+        return dashboard;
+    }
+
+    public WebElement Invalid_loginDetails()
+    {
+        return invalid_loginDetails;
     }
 
 

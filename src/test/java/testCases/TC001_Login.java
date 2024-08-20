@@ -14,7 +14,7 @@ public class TC001_Login extends BaseClass{
         lp.InputPassword(password);
         lp.clickLogin();
 
-        if(driver.getTitle().equals("OrangeHRM"))
+        if(lp.LoginConfirm().isDisplayed())
         {
             Assert.assertTrue(true);
         }
