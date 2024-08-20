@@ -21,10 +21,10 @@ public class EmployeePersonalDetails extends BaseObject{
     WebElement lincense_expDate; //yyyy-dd-mm
 
     @FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//div[@class='oxd-grid-3 orangehrm-full-width-grid']//div[1]//div[1]//div[2]//div[1]//div[1]//div[2]//i[1]")
-    WebElement drp_nationality; //span[normalize-space()='Barbadian']
+    WebElement drp_nationality; // //span[normalize-space()='Barbadian']
 
     @FindBy(xpath = "//*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[2]/div/div[2]/div/div/div[1]")
-    WebElement drp_maritalstatus; //span[normalize-space()='Single']
+    WebElement drp_maritalstatus; // //span[normalize-space()='Single']
 
     @FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/i[1]")
     WebElement dob; //yyyy-dd-mm
@@ -39,7 +39,7 @@ public class EmployeePersonalDetails extends BaseObject{
     WebElement txt_militaryService;
 
     @FindBy(xpath = "//div[@class='orangehrm-custom-fields']//div[@class='orangehrm-card-container']//form[@class='oxd-form']//div[@class='oxd-form-row']//div[@class='oxd-grid-3 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']")
-    WebElement drp_bloodType; //span[normalize-space()='A+']
+    WebElement drp_bloodType; // //span[normalize-space()='A+']
 
     @FindBy(xpath = "//div[@class='orangehrm-custom-fields']//div[@class='orangehrm-card-container']//form[@class='oxd-form']//div[@class='oxd-form-row']//div[@class='oxd-grid-3 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']")
     WebElement txt_testfield;
@@ -48,7 +48,7 @@ public class EmployeePersonalDetails extends BaseObject{
     WebElement btn_addAttachment;
 
     @FindBy(xpath = "//i[@class='oxd-icon bi-upload oxd-file-input-icon']")
-    WebElement file_input; //testData/20230119_031434.jpg
+    WebElement file_input; // testData/20230119_031434.jpg
 
     @FindBy(xpath = "//div[@class='oxd-file-input-div']")
     WebElement fileInputDisplay;
