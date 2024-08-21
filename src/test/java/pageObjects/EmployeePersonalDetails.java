@@ -36,14 +36,17 @@ public class EmployeePersonalDetails extends BaseObject{
     @FindBy(xpath = "//label[normalize-space()='Female']")
     WebElement female;
 
-    @FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/div[2]/input[1]")
-    WebElement txt_militaryService;
+    @FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//button[@type='submit'][normalize-space()='Save']")
+    WebElement savepersonaldetails;
 
     @FindBy(xpath = "//div[@class='orangehrm-custom-fields']//div[@class='orangehrm-card-container']//form[@class='oxd-form']//div[@class='oxd-form-row']//div[@class='oxd-grid-3 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']")
     WebElement drp_bloodType; // //span[normalize-space()='A+']
 
     @FindBy(xpath = "//div[@class='orangehrm-custom-fields']//div[@class='orangehrm-card-container']//form[@class='oxd-form']//div[@class='oxd-form-row']//div[@class='oxd-grid-3 orangehrm-full-width-grid']//div[@class='oxd-grid-item oxd-grid-item--gutters']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']")
     WebElement txt_testfield;
+
+    @FindBy(xpath = "//div[@class='orangehrm-custom-fields']//button[@type='submit'][normalize-space()='Save']")
+    WebElement saveBloodDetails;
 
     @FindBy(xpath = "//button[normalize-space()='Add']")
     WebElement btn_addAttachment;
@@ -106,9 +109,9 @@ public class EmployeePersonalDetails extends BaseObject{
         }
     }
 
-    public void MilitaryService(String yes_or_no)
+    public void Save()
     {
-        txt_militaryService.sendKeys(yes_or_no);
+        savepersonaldetails.click();
     }
 
     public void Bloodtype(String bloodtype)
@@ -121,6 +124,11 @@ public class EmployeePersonalDetails extends BaseObject{
     public void commentBloodtype(String comment)
     {
         txt_testfield.sendKeys(comment);
+    }
+
+    public void SaveBloodDetails()
+    {
+        saveBloodDetails.click();
     }
 
     public void AddAttachment()

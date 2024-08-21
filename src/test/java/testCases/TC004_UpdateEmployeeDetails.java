@@ -18,19 +18,18 @@ public class TC004_UpdateEmployeeDetails extends BaseClass{
 
         logger.info("Updating Employee Personal Details");
         EmployeePersonalDetails personal =new EmployeePersonalDetails(driver);
-        personal.inputNickname(randomString(5));
+        //personal.inputNickname(randomString(5));
         personal.inputDriversLicense(String.valueOf(randomAlphaNumeric(9)));
         personal.lincenseExp("2024-20-11");
         personal.Nationality("Nigeria");
         personal.MaritalStatus("Single");
         personal.DateOfBirth("2002-07-05");
         personal.Gender("Male");
-        personal.MilitaryService("No");
-        ///save info
+        personal.Save();
 
         personal.Bloodtype("O-");
         personal.commentBloodtype(randomString(7));
-        ///save button
+        personal.SaveBloodDetails();
 
         try {
             logger.info("Adding attachment");
