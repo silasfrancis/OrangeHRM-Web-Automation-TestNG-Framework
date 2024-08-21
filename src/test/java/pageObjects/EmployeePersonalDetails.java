@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,7 +49,7 @@ public class EmployeePersonalDetails extends BaseObject{
     WebElement btn_addAttachment;
 
     @FindBy(xpath = "//i[@class='oxd-icon bi-upload oxd-file-input-icon']")
-    WebElement file_input; // testData/20230119_031434.jpg
+    WebElement file_input;
 
     @FindBy(xpath = "//div[@class='oxd-file-input-div']")
     WebElement fileInputDisplay;
@@ -58,4 +59,92 @@ public class EmployeePersonalDetails extends BaseObject{
 
     @FindBy(xpath = "//div[@class='orangehrm-attachment']//button[@type='submit'][normalize-space()='Save']")
     WebElement btn_savefile;
+
+    public void inputNickname(String nickname)
+    {
+        txt_inputNickName.sendKeys(nickname);
+    }
+
+    public void inputDriversLicense(String drivers_lincense)
+    {
+        txt_driversLicense.sendKeys(drivers_lincense);
+    }
+
+    public void lincenseExp(String yyyy_dd_mm)
+    {
+        lincense_expDate.sendKeys(yyyy_dd_mm);
+    }
+
+    public void Nationality(String nation)
+    {
+        drp_nationality.click();
+        WebElement nationality = driver.findElement(By.xpath("//span[normalize-space()='"+nation+"']"));
+        nationality.click();
+    }
+
+    public void MaritalStatus(String status)
+    {
+        drp_maritalstatus.click();
+        WebElement maritalStatus = driver.findElement(By.xpath("//span[normalize-space()='"+status+"']"));
+        maritalStatus.click();
+    }
+
+    public void DateOfBirth(String yy_dd_mm)
+    {
+        dob.sendKeys(yy_dd_mm);
+    }
+
+    public void Gender(String gender)
+    {
+        if(gender.equalsIgnoreCase("male"))
+        {
+            male.click();
+        }
+        else if(gender.equalsIgnoreCase("female"))
+        {
+            female.click();
+        }
+    }
+
+    public void MilitaryService(String yes_or_no)
+    {
+        txt_militaryService.sendKeys(yes_or_no);
+    }
+
+    public void Bloodtype(String bloodtype)
+    {
+        drp_bloodType.click();
+        WebElement btype = driver.findElement(By.xpath("//span[normalize-space()='"+bloodtype+"']"));
+        btype.click();
+    }
+
+    public void commentBloodtype(String comment)
+    {
+        txt_testfield.sendKeys(comment);
+    }
+
+    public void AddAttachment()
+    {
+        btn_addAttachment.click();
+    }
+
+    public void Upload(String path)
+    {
+        file_input.sendKeys(path);
+    }
+
+    public String confirmFileUpload()
+    {
+        return fileInputDisplay.getText();
+    }
+
+    public void commentFile(String comment)
+    {
+        txt_file_comment.sendKeys(comment);
+    }
+
+    public void SaveUpload()
+    {
+        btn_savefile.click();
+    }
 }

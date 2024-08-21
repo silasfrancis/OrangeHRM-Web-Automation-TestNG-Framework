@@ -33,7 +33,7 @@ public class AddEmployee extends BaseObject {
     WebElement txt_inputUsername;
 
     @FindBy(xpath = "//label[normalize-space()='Disabled']")
-    WebElement txt_disableUser;
+    WebElement disableUser;
 
     @FindBy(xpath = "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@type='password']")
     WebElement txt_inputPassword;
@@ -43,5 +43,63 @@ public class AddEmployee extends BaseObject {
 
     @FindBy(xpath = "//button[normalize-space()='Save']")
     WebElement btn_save;
+
+    public void clickPIM()
+    {
+        PIM.click();
+    }
+
+    public void clickAddEmployee()
+    {
+        btn_addEmployee.click();
+    }
+
+    public void inputFirstname(String fname)
+    {
+        txt_firstname.sendKeys(fname);
+    }
+
+    public void inputMidName(String mname)
+    {
+        txt_middlename.sendKeys(mname);
+    }
+
+    public void inputLastname(String lname)
+    {
+        txt_lastname.sendKeys(lname);
+    }
+
+    public void createLoginDetails()
+    {
+        btn_createLoginDetails.click();
+    }
+
+    public void inputUsername(String username)
+    {
+        txt_inputUsername.clear();
+        txt_inputUsername.sendKeys(username);
+    }
+
+    public void disableUser()
+    {
+        disableUser.click();
+    }
+
+    public void inputPassword(String password)
+    {
+        txt_inputPassword.clear();
+        txt_inputPassword.sendKeys(password);
+    }
+
+    public void confirmPassword(String password)
+    {
+        txt_confirmPassword.clear();
+        txt_confirmPassword.sendKeys(password);
+    }
+
+    public void saveEmployee()
+    {
+        btn_save.click();
+    }
 
 }

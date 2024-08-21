@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -64,4 +65,84 @@ public class EmployeeContactDetails extends BaseObject{
 
     @FindBy(xpath = "//div[@class='orangehrm-attachment']//button[@type='submit'][normalize-space()='Save']")
     WebElement btn_savefile;
+
+    public void clickContactDetails()
+    {
+        click_ContactDetails.click();
+    }
+
+    public void inputAddress1(String address)
+    {
+        streetAddress1.sendKeys(address);
+    }
+
+    public void inputAddress2(String address)
+    {
+        streetAddress2.sendKeys(address);
+    }
+
+    public void inputCity(String City)
+    {
+        city.sendKeys(City);
+    }
+
+    public void inputState(String State)
+    {
+        state.sendKeys(State);
+    }
+
+    public void inputZipCode(String Zipcode)
+    {
+        zipcode.sendKeys(Zipcode);
+    }
+
+    public void selectCountry(String country)
+    {
+        drp_country.click();
+        WebElement Country = driver.findElement(By.xpath("//span[normalize-space()='"+country+"']"));
+        Country.click();
+    }
+
+    public void inputPhone(String homePhone, String mobilePhone, String workPhone)
+    {
+        inputHomePhone.sendKeys(homePhone);
+        inputMobilePhone.sendKeys(mobilePhone);
+        inputWorkPhone.sendKeys(workPhone);
+    }
+
+    public void inputEmail(String workEmail, String other_email)
+    {
+        inputWorkEmail.sendKeys(workEmail);
+        otherEmail.sendKeys(other_email);
+    }
+
+    public void saveContactInfo()
+    {
+        saveContactInfo.click();
+    }
+
+    public void AddAttachment()
+    {
+        add_attachment.click();
+    }
+
+    public void Upload(String path)
+    {
+        file_input.sendKeys(path);
+    }
+
+    public String confirmFileUpload()
+    {
+        return fileInputDisplay.getText();
+    }
+
+    public void commentFile(String comment)
+    {
+        txt_file_comment.sendKeys(comment);
+    }
+
+    public void SaveUpload()
+    {
+        btn_savefile.click();
+    }
 }
