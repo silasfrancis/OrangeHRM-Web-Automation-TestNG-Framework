@@ -1,0 +1,168 @@
+21:13:43.738 [main] INFO  testCases.TC003_CreateEmployee - Login in Progress
+21:13:46.112 [main] INFO  testCases.TC003_CreateEmployee - Login Successful
+21:13:50.369 [main] INFO  testCases.TC003_CreateEmployee - Inputting Employee Details
+21:13:51.880 [main] INFO  testCases.TC003_CreateEmployee - Creating Employee Login Details
+21:13:53.509 [main] INFO  testCases.TC003_CreateEmployee - Saving Employee Details
+21:13:53.669 [main] INFO  testCases.TC003_CreateEmployee - Logging Out
+21:13:55.406 [main] INFO  testCases.TC003_CreateEmployee - TC003_CreateEmployee Successful
+21:17:20.945 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:21:55.839 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:23:30.145 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:27:23.760 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:28:47.701 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:30:45.333 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:32:31.321 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:39:12.136 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:41:22.379 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:45:23.253 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:45:25.341 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding attachment
+21:45:25.597 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [485f1699278b9a5db623a78c528c41fb, sendKeysToElement {id=f.237AED5C0EED16E48E075241343962F0.d.77480A5D304D7960816D083F8C2F6902.e.175, value=[Ljava.lang.CharSequence;@7808f638}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64308/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (485f1699278b9a5db623a78c528c41fb)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: 485f1699278b9a5db623a78c528c41fb
+21:45:26.033 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Personal Details Updated Successfully
+21:45:29.035 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Contact Details
+21:51:51.746 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+21:51:53.240 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding attachment
+21:51:53.514 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c69a0de893636b47075f7c95d170916b, sendKeysToElement {id=f.7E77EB4B44CEE7B87554FCD99F010F85.d.A2B6ED9AD8694D36F210C4D82B996079.e.168, value=[Ljava.lang.CharSequence;@3f628ce9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64507}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64507/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c69a0de893636b47075f7c95d170916b)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: c69a0de893636b47075f7c95d170916b
+21:51:53.777 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Personal Details Updated Successfully
+21:51:56.782 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Contact Details
+22:02:43.990 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+22:02:45.565 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding attachment
+22:02:45.821 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ba6d6622f70b74b6eff6ead2ca8f7f4, sendKeysToElement {value=[Ljava.lang.CharSequence;@351f2244, id=f.19DD295E8F79C94F462BDB519C4DBC8D.d.6A9090D97D3AE83236930C2403700BDF.e.222}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64999/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1ba6d6622f70b74b6eff6ead2ca8f7f4)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: 1ba6d6622f70b74b6eff6ead2ca8f7f4
+22:02:46.070 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Personal Details Updated Successfully
+22:02:49.075 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Contact Details
+22:09:57.901 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+22:09:59.442 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding attachment
+22:09:59.686 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [339bf5a3b2d061f2afe0eda5e7b784f8, sendKeysToElement {value=[Ljava.lang.CharSequence;@64f16277, id=f.424E87F895F112863590FE4CC1260690.d.4DA627C915CDF6F9DB7C35A42DE99500.e.230}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65481/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (339bf5a3b2d061f2afe0eda5e7b784f8)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: 339bf5a3b2d061f2afe0eda5e7b784f8
+22:09:59.936 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Personal Details Updated Successfully
+22:10:02.937 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Contact Details
+22:16:54.124 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Personal Details
+22:16:55.831 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding attachment
+22:16:56.232 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8823642f720ab25fbc290f02d0d242c2, sendKeysToElement {id=f.49A74DBED9B17C763C211954197FB904.d.6FC96E10BA16A5EE1A04BA5C6D3A6CFB.e.176, value=[Ljava.lang.CharSequence;@3f628ce9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49556/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8823642f720ab25fbc290f02d0d242c2)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: 8823642f720ab25fbc290f02d0d242c2
+22:16:56.524 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Personal Details Updated Successfully
+22:16:59.532 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Updating Employee Contact Details
+22:17:04.177 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Adding Contact Attachment
+22:17:04.387 [main] INFO  testCases.TC004_UpdateEmployeeDetails - element not interactable
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8823642f720ab25fbc290f02d0d242c2, sendKeysToElement {id=f.49A74DBED9B17C763C211954197FB904.d.A9AF44055A41B9EEF383FC2553351EA8.e.247, value=[Ljava.lang.CharSequence;@17d32e9b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\CHARLIE\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49556/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8823642f720ab25fbc290f02d0d242c2)] -> xpath: //i[@class='oxd-icon bi-upload oxd-file-input-icon']]
+Session ID: 8823642f720ab25fbc290f02d0d242c2
+22:17:04.691 [main] INFO  testCases.TC004_UpdateEmployeeDetails - Employee Contact Details Updated Successfully
+22:17:04.691 [main] INFO  testCases.TC004_UpdateEmployeeDetails - TC004_UpdateEmployeeDetails Successful
+22:18:49.689 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:18:52.670 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:18:58.863 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:18:59.840 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:19:00.903 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:19:01.062 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:19:02.419 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:19:02.478 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:19:04.639 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:19:09.084 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:19:10.052 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:19:11.446 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:19:11.568 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:19:13.699 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:19:13.699 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:19:15.125 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:19:20.401 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:19:21.486 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:19:23.156 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:19:23.230 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:19:24.448 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:19:24.448 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:19:25.130 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:19:32.419 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:19:33.248 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:19:34.058 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:19:34.130 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:19:36.409 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:19:36.409 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:19:37.204 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:19:44.106 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:19:45.139 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:19:46.327 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:21:26.585 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:21:28.478 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:21:35.783 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:21:37.184 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:21:38.449 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:21:38.547 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:21:40.750 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:21:40.821 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:21:44.537 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:21:48.158 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:21:49.107 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:21:49.917 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:21:49.994 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:21:51.011 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:21:51.011 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:21:52.756 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:21:57.375 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:21:58.446 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:21:59.171 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:21:59.249 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:22:01.425 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:22:01.433 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:22:05.426 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:22:09.457 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:22:10.661 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:22:11.472 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:22:11.560 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:22:18.934 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:22:18.934 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:22:19.838 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:22:24.902 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:22:25.878 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:22:26.889 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:22:26.964 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:22:29.167 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful
+22:22:29.175 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login in Progress
+22:22:29.983 [main] INFO  testCases.TC005_CreateEmployeeDDT - Login Successful
+22:22:35.423 [main] INFO  testCases.TC005_CreateEmployeeDDT - Inputting Employee Details
+22:22:36.695 [main] INFO  testCases.TC005_CreateEmployeeDDT - Creating Employee Login Details
+22:22:37.598 [main] INFO  testCases.TC005_CreateEmployeeDDT - Saving Employee Details
+22:22:37.676 [main] INFO  testCases.TC005_CreateEmployeeDDT - Logging Out
+22:22:39.513 [main] INFO  testCases.TC005_CreateEmployeeDDT - TTC005_CreateEmployeeDDT Successful

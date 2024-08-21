@@ -44,6 +44,7 @@ public class BaseClass {
 
         driver.get(baseURL);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
         logger = LogManager.getLogger(this.getClass());
     }
 
@@ -53,10 +54,16 @@ public class BaseClass {
         driver.quit();
     }
 
-    public WebElement ExplicitWait(WebElement element)
+    public WebElement ExplicitWaitVisibility(WebElement element)
     {
         WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(String.valueOf(element))));
+    }
+
+    public void JsExecutor(WebElement element)
+    {
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("arguments[0].click();", element);
     }
 
     public void takeScreenshot(WebDriver driver, String methodname) throws IOException

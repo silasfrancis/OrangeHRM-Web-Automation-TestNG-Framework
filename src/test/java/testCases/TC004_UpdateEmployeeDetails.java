@@ -14,14 +14,14 @@ public class TC004_UpdateEmployeeDetails extends BaseClass{
     public void updateEmployeeDetails() throws InterruptedException {
         TC003_CreateEmployee createEmployee = new TC003_CreateEmployee();
         createEmployee.addEmployee();
-        Thread.sleep(3000);
+        Thread.sleep(10000);
 
         logger.info("Updating Employee Personal Details");
         EmployeePersonalDetails personal =new EmployeePersonalDetails(driver);
         //personal.inputNickname(randomString(5));
-        personal.inputDriversLicense(String.valueOf(randomAlphaNumeric(9)));
+        personal.inputDriversLicense(randomAlphaNumeric(9));
         personal.lincenseExp("2024-20-11");
-        personal.Nationality("Nigeria");
+        personal.Nationality("Nigerian");
         personal.MaritalStatus("Single");
         personal.DateOfBirth("2002-07-05");
         personal.Gender("Male");
@@ -34,7 +34,7 @@ public class TC004_UpdateEmployeeDetails extends BaseClass{
         try {
             logger.info("Adding attachment");
             personal.AddAttachment();
-            personal.Upload(System.getProperty("user.dir") + "\\testData\\20230119_031434.jpg");
+            personal.Upload(System.getProperty("user.dir") + "//testData//20230119_031434.jpg");
             if (personal.confirmFileUpload().equals("20230119_031434.jpg")) {
                 Assert.assertTrue(true);
                 logger.info("File Upload Successful");
@@ -57,7 +57,7 @@ public class TC004_UpdateEmployeeDetails extends BaseClass{
 
         logger.info("Updating Employee Contact Details");
         EmployeeContactDetails contact = new EmployeeContactDetails(driver);
-        contact.clickContactDetails();
+        JsExecutor(contact.clickContactDetails());
         contact.inputAddress1(randomAlphaNumeric(8));
         contact.inputAddress2(randomAlphaNumeric(9));
         contact.inputCity(randomString(5));

@@ -12,7 +12,7 @@ public class EmployeeContactDetails extends BaseObject{
         super(driver);
     }
 
-    @FindBy(xpath = "//a[normalize-space()='Contact Details']")
+    @FindBy(xpath = "//*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/div[2]/a")
     WebElement click_ContactDetails;
 
     @FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//div[1]//div[1]//div[1]//div[1]//div[2]//input[1]")
@@ -66,9 +66,9 @@ public class EmployeeContactDetails extends BaseObject{
     @FindBy(xpath = "//div[@class='orangehrm-attachment']//button[@type='submit'][normalize-space()='Save']")
     WebElement btn_savefile;
 
-    public void clickContactDetails()
+    public WebElement clickContactDetails()
     {
-        click_ContactDetails.click();
+        return click_ContactDetails;
     }
 
     public void inputAddress1(String address)
