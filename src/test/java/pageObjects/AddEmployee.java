@@ -12,6 +12,7 @@ public class AddEmployee extends BaseObject {
     }
 
     @FindBy(xpath = "//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'][normalize-space()='PIM']")
+    @CacheLookup
     WebElement PIM;
 
     @FindBy(xpath = "//a[normalize-space()='Add Employee']")
